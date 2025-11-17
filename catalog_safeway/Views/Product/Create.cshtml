@@ -1,0 +1,38 @@
+﻿@model catalog_safeway.Models.Product
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Description</label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+
+    <div action="form-group">
+        <label>Code</label>
+        <input asp-for="Code" class="form-control" type="number" maxlength="10" />
+    </div>
+
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" name="image" class="form-control" />
+        <br />
+    </div>
+    <hr />
+
+    <div class="form-group">
+        <label>Template</label>
+        <input type="file" name="excel" accept=".xlsx" class="form-control" />
+        <br />
+    </div>
+
+    <div action="form-group" style="text-align:center">
+        <br />
+        <label id="messageError" class="labelError">@ViewBag.messageError</label>
+        <label id="messageSucessfull" class="labelSucessfull">@ViewBag.messageSucessfull</label>
+        <br />
+    </div>
+
+    <div action="form-group" style="text-align:center">
+        <button type="submit" class="btn btn-primary mt-3">Save</button>
+    </div>
+
+</form>

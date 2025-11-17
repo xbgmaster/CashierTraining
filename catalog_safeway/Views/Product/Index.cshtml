@@ -1,0 +1,35 @@
+﻿@model IEnumerable<catalog_safeway.Models.Product>
+
+<h2>Product List</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">New</a>
+<a asp-action="ActivityCode" class="btn btn-success mb-3">Activity</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Code</th>
+            <th style="width:100px">Image</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Description</td>
+                <td>@item.Code</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImagePath))
+                    {
+                        <img src="@item.ImagePath" width="100" />
+                    }
+                </td>
+                <td>
+                    <a asp-controller="Product" asp-action="EditProduct" asp-route-code="@item.Code">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

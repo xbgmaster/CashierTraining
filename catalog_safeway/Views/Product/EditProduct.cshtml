@@ -1,0 +1,38 @@
+﻿@model catalog_safeway.Models.Product
+
+<form asp-action="EditProduct" method="post" enctype="multipart/form-data" style="text-align:center">
+    <div>
+        <div class="form-group">
+            <label class="labelTitle">Description</label>
+            <input asp-for="Description" class="form-control" />
+        </div>
+
+        <div action="form-group">
+            <label class="labelTitle">Code</label>
+            <input asp-for="Code" class="form-control" type="number" maxlength="10" />
+        </div>
+
+        <div action="form-group">
+            <img asp-for="Model.ImagePath" src="@Model.ImagePath" class="img-fluid" alt="Product Image" width="100" height="100" />
+            <input asp-for="@Model.ImagePath" hidden />
+            <input asp-for="@Model.Id" hidden />
+        </div>
+
+
+        <div class="form-group">
+            <label class="labelTitle">Image</label>
+            <input type="file" name="image" class="form-control" />
+            <br />
+        </div>
+        <hr />
+        <div action="form-group" style="text-align:center">
+            <br />
+            <label id="messageError" class="labelError">@ViewBag.messageError</label>
+            <label id="messageSucessfull" class="labelSucessfull">@ViewBag.messageSucessfull</label>
+            <br />
+        </div>
+        <div action="form-group" style="text-align:center">
+            <button type="submit" class="btn btn-primary mt-3">Save</button>
+        </div>
+    </div>
+</form>
