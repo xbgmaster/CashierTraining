@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OKdVIhWqe0g=",
+  "dgSpecHash": "8bV+BIJ3QqQ=",
   "success": true,
-  "projectFilePath": "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\catalog_safeway.csproj",
+  "projectFilePath": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\catalog_safeway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

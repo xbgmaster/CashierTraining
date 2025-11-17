@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\catalog_safeway.csproj": {}
+    "C:\\DOTNET\\CashierTraining\\catalog_safeway\\catalog_safeway.csproj": {}
   },
   "projects": {
-    "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\catalog_safeway.csproj": {
+    "C:\\DOTNET\\CashierTraining\\catalog_safeway\\catalog_safeway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\catalog_safeway.csproj",
+        "projectUniqueName": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\catalog_safeway.csproj",
         "projectName": "catalog_safeway",
-        "projectPath": "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\catalog_safeway.csproj",
+        "projectPath": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\catalog_safeway.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\DOTNET\\Projects\\catalog_safeway\\catalog_safeway\\obj\\",
+        "outputPath": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

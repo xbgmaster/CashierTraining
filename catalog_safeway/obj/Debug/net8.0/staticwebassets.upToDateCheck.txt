@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\Tomatillo.png
 wwwroot\images\TomatoLargeRed.png
 wwwroot\images\TomatoRoma.jpeg
 wwwroot\images\TomatoVine.png
@@ -61,4 +62,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\images\Tomatillo.png

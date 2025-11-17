@@ -1,6 +1,8 @@
-using catalog_safeway.Data;
+﻿using catalog_safeway.Data;
 using catalog_safeway.Services;
 using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // sql connection
 builder.Services.AddScoped<IProductServices, ProductService>();
+// ✅ Set EPPlus license for non-commercial use
+// Set EPPlus license
+var license = new EPPlusLicense();
+license.SetNonCommercialPersonal("Alejandro");
+
+
 
 
 

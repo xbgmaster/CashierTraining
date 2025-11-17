@@ -16,6 +16,20 @@
         <input type="file" name="image" class="form-control" />
         <br />
     </div>
+
+    <hr />
+    <div action="form-group" style="text-align:center">
+        <br />
+        <label id="messageError" class="labelError">@ViewBag.messageError</label>
+        <label id="messageSucessfull" class="labelSucessfull">@ViewBag.messageSucessfull</label>
+        <br />
+    </div>
+    <hr />
+
+    <div action="form-group" style="text-align:center">
+        <button type="submit" class="btn btn-primary mt-3" value="save" name="action">Save</button>
+    </div>
+
     <hr />
 
     <div class="form-group">
@@ -25,14 +39,6 @@
     </div>
 
     <div action="form-group" style="text-align:center">
-        <br />
-        <label id="messageError" class="labelError">@ViewBag.messageError</label>
-        <label id="messageSucessfull" class="labelSucessfull">@ViewBag.messageSucessfull</label>
-        <br />
+        <button type="submit" class="btn btn-secondary mt-3" value="upload" name="action">Upload template</button>
     </div>
-
-    <div action="form-group" style="text-align:center">
-        <button type="submit" class="btn btn-primary mt-3">Save</button>
-    </div>
-
 </form>
