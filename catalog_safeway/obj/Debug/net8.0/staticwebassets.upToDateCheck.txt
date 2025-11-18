@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\Tomatillo.png
+wwwroot\images\TomatoHotHouse.png
 wwwroot\images\TomatoLargeRed.png
 wwwroot\images\TomatoRoma.jpeg
 wwwroot\images\TomatoVine.png
