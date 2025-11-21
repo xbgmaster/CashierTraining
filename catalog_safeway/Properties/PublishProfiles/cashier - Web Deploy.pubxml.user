@@ -6,7 +6,12 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <History>True|2025-11-18T08:53:27.9235866Z||;True|2025-11-17T23:57:18.9998585-08:00||;True|2025-11-17T23:01:29.1892976-08:00||;True|2025-11-17T22:46:03.7082446-08:00||;</History>
+    <History>True|2025-11-21T07:12:22.3613699Z||;True|2025-11-20T22:51:34.6195661-08:00||;True|2025-11-20T22:43:59.7576712-08:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=safeway.database.windows.net,1433;Initial Catalog=Safeways;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="REDACTED" />
+    <AzureDBConnectionStrings Include="Server=tcp:safeway.database.windows.net;Authentication=Active Directory Default;Database=Safeways" />
+  </ItemGroup>
 </Project>

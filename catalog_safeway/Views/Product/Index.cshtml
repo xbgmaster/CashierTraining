@@ -23,7 +23,9 @@
                 <td>
                     @if (!string.IsNullOrEmpty(item.ImagePath))
                     {
-                        <img src="@item.ImagePath" width="100" />
+                        @* <img src="@item.ImagePath" width="100" /> *@
+                        <img src="data:image/jpeg;base64,@item.ImagePath" alt="Product Image" style="max-width:100px;" />
+
                     }
                 </td>
                 <td>
