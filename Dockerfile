@@ -9,7 +9,6 @@ WORKDIR /src
 COPY . .
 
 RUN dotnet restore "catalog_safeway/catalog_safeway.csproj"
-
 RUN dotnet publish "catalog_safeway/catalog_safeway.csproj" -c Release -o /app/publish
 
 FROM base AS final
