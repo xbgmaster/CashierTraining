@@ -3,13 +3,13 @@
 
 <form asp-action="ActivityCode" method="post" enctype="multipart/form-data">
     <div class="divActivityCode">
-        <div action="form-group">
+        <div class="form-group">
             <label class="labelTitle">Description: </label>
             <br />
             <input asp-for="@Model.Description" class="form-control" readonly />
         </div>
 
-        <div action="form-group">
+        <div class="form-group">
             <label class="labelTitle">Product: </label>
             <br />
             @* <img asp-for="Model.ImagePath" src="@Model.ImagePath" class="img-fluid" alt="Product Image" width="100" height="100" /> *@
@@ -26,17 +26,17 @@
             <input asp-for="@Model.Id" hidden />
         </div>
 
-        <div action="form-group">
+        <div class="form-group">
             <label class="labelTitle">Code</label>
             <br />
             <input asp-for="Code" type="number" class="form-control" min="1" maxlength="10" />
         </div>
-        <div action="form-group">
+        <div class="form-group">
             <br />
             <label id="messageError" class="labelError">@ViewBag.messageError</label>
             <label id="messageSucessfull" class="labelSucessfull">@ViewBag.messageSucessfull</label>
         </div>
-        <div action="form-group">
+        <div class="form-group">
             <button type="submit" class="btn btn-safeways mt-3" value="check" name="action">Check</button>
             <button type="submit" class="btn btn-safeways mt-3" value="skip" name="action">Next</button>
             <br />
