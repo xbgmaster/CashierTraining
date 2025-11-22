@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("catalog_safeway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e99351dd5780fc595b62c60d5729c72a46a3a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b69edfcd85cd5a103343dabd1248af0125d84e85")]
 [assembly: System.Reflection.AssemblyProductAttribute("catalog_safeway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("catalog_safeway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
