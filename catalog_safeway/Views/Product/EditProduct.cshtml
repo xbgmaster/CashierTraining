@@ -13,8 +13,8 @@
         </div>
 
         <div action="form-group">
-            @* <img asp-for="Model.ImagePath" src="@Model.ImagePath" class="img-fluid" alt="Product Image" width="100" height="100" /> *@
-            <img src="data:image/jpeg;base64,@Model.ImagePath" alt="Product Image" width="100" height="100" />
+            <img asp-for="Model.ImagePath" src="@Model.ImagePath" class="img-fluid" alt="Product Image" width="100" height="100" />
+            @* <img src="data:image/jpeg;base64,@Model.ImagePath" alt="Product Image" width="100" height="100" /> *@
             <input asp-for="@Model.ImagePath" hidden />
             <input asp-for="@Model.Id" hidden />
         </div>

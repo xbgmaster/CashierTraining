@@ -51,14 +51,26 @@ namespace catalog_safeway.Controllers
 
                     if (products.Where(w => w.Code == model.Code).ToList().Count == 0)
                     {
+                        //if (image != null)
+                        //{
+                        //    using var ms = new MemoryStream();
+                        //    await image.CopyToAsync(ms);
+                        //    byte[] imageBytes = ms.ToArray();
+                        //    string base64String = Convert.ToBase64String(imageBytes);
+                        //    // Guardar la cadena en el modelo
+                        //    model.ImagePath = base64String;
+                        //}
                         if (image != null)
                         {
-                            using var ms = new MemoryStream();
-                            await image.CopyToAsync(ms);
-                            byte[] imageBytes = ms.ToArray();
-                            string base64String = Convert.ToBase64String(imageBytes);
-                            // Guardar la cadena en el modelo
-                            model.ImagePath = base64String;
+                            string folder = Path.Combine(_env.WebRootPath, "images");
+                            Directory.CreateDirectory(folder);
+                            string rootFile = Path.Combine(folder, image.FileName);
+
+                            using (var stream = new FileStream(rootFile, FileMode.Create))
+                            {
+                                await image.CopyToAsync(stream);
+                            }
+                            model.ImagePath = "/images/" + image.FileName;
                         }
                         model.Id = Guid.NewGuid().ToString();
                         _context.Products.Add(model);
@@ -144,36 +156,6 @@ namespace catalog_safeway.Controllers
 
 
 
-        //[HttpPost]
-        //public async Task<IActionResult> EditProduct(Product model, IFormFile image)
-        //{
-        //    if (!string.IsNullOrEmpty(model.Description) && !string.IsNullOrEmpty(model.Code))
-        //    {
-        //        if (image != null) 
-        //        {
-        //            string folder = Path.Combine(_env.WebRootPath, "images");
-        //            Directory.CreateDirectory(folder);
-        //            string rootFile = Path.Combine(folder, image.FileName);
-
-        //            using (var stream = new FileStream(rootFile, FileMode.Create))
-        //            {
-        //                await image.CopyToAsync(stream);
-        //            }
-        //            model.ImagePath = "/images/" + image.FileName;
-        //        }             
-        //        _context.Products.Update(model);
-        //        await _context.SaveChangesAsync();
-        //        ModelState.Clear();
-        //        ViewBag.messageSucessfull = "Item upgraded";
-        //        return View(model);
-        //    }
-        //    else
-        //    {
-        //        ViewBag.messageError = "Please fill out all required fields befor submitting.";
-        //        return View(model);
-        //    }
-        //}
-
         [HttpPost]
         public async Task<IActionResult> EditProduct(Product model, IFormFile image)
         {
@@ -181,14 +163,16 @@ namespace catalog_safeway.Controllers
             {
                 if (image != null)
                 {
-                    using var ms = new MemoryStream();
-                    await image.CopyToAsync(ms);
-                    byte[] imageBytes = ms.ToArray();
-                    string base64String = Convert.ToBase64String(imageBytes);
-                    // Guardar la cadena en el modelo
-                    model.ImagePath = base64String;
-                }
+                    string folder = Path.Combine(_env.WebRootPath, "images");
+                    Directory.CreateDirectory(folder);
+                    string rootFile = Path.Combine(folder, image.FileName);
 
+                    using (var stream = new FileStream(rootFile, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
+                    model.ImagePath = "/images/" + image.FileName;
+                }
                 _context.Products.Update(model);
                 await _context.SaveChangesAsync();
                 ModelState.Clear();
@@ -197,10 +181,38 @@ namespace catalog_safeway.Controllers
             }
             else
             {
-                ViewBag.messageError = "Please fill out all required fields before submitting.";
+                ViewBag.messageError = "Please fill out all required fields befor submitting.";
                 return View(model);
             }
         }
+
+        //[HttpPost]
+        //public async Task<IActionResult> EditProduct(Product model, IFormFile image)
+        //{
+        //    if (!string.IsNullOrEmpty(model.Description) && !string.IsNullOrEmpty(model.Code))
+        //    {
+        //        if (image != null)
+        //        {
+        //            using var ms = new MemoryStream();
+        //            await image.CopyToAsync(ms);
+        //            byte[] imageBytes = ms.ToArray();
+        //            string base64String = Convert.ToBase64String(imageBytes);
+        //            // Guardar la cadena en el modelo
+        //            model.ImagePath = base64String;
+        //        }
+
+        //        _context.Products.Update(model);
+        //        await _context.SaveChangesAsync();
+        //        ModelState.Clear();
+        //        ViewBag.messageSucessfull = "Item upgraded";
+        //        return View(model);
+        //    }
+        //    else
+        //    {
+        //        ViewBag.messageError = "Please fill out all required fields before submitting.";
+        //        return View(model);
+        //    }
+        //}
 
         [HttpGet]
         public IActionResult ActivityCode()

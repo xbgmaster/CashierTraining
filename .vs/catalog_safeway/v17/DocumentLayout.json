@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\DOTNET\\CashierTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,67 +11,24 @@
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\activitycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.306\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,38 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\EditProduct.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T07:05:02.629Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\appsettings.json",
-              "RelativeDocumentMoniker": "catalog_safeway\\appsettings.json",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\appsettings.json",
-              "RelativeToolTip": "catalog_safeway\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAACcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-16T20:30:57.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Home\\Index.cshtml",
@@ -136,236 +50,86 @@
               "RelativeToolTip": "catalog_safeway\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T06:36:56.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "catalog_safeway\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAIwNsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T20:38:33.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Services\\ProductService.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Services\\ProductService.cs",
-              "RelativeToolTip": "catalog_safeway\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T04:48:19.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProductServices.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Services\\IProductServices.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Services\\IProductServices.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Services\\IProductServices.cs",
-              "RelativeToolTip": "catalog_safeway\\Services\\IProductServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T04:48:31.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T21:16:41.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T21:00:29.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Models\\Product.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Models\\Product.cs",
-              "RelativeToolTip": "catalog_safeway\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T02:45:18.334Z",
+              "WhenOpened": "2025-11-22T07:09:47.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ActivityCode.cshtml",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
               "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
               "RelativeToolTip": "catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T01:57:42.576Z"
+              "WhenOpened": "2025-11-22T07:09:34.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "catalog_safeway\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "catalog_safeway\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvy0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T02:54:10.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "catalog_safeway\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T02:52:21.677Z"
+              "WhenOpened": "2025-11-22T07:09:23.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "catalog_safeway\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-18T08:36:54.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "catalog_safeway\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAAMALAAAAAAAAAIAwwNALAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-18T08:42:16.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.306\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\9.0.306\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AgIAAJgCAAAAAAAAAAASwKYCAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-17T06:36:10.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
+              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\EditProduct.cshtml",
+              "RelativeToolTip": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T06:37:02.596Z"
+              "WhenOpened": "2025-11-22T07:09:11.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "catalog_safeway\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T07:07:51.904Z"
+              "WhenOpened": "2025-11-22T07:08:57.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "catalog_safeway\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "catalog_safeway\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "catalog_safeway\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAawMEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T02:09:22.87Z"
+              "WhenOpened": "2025-11-22T07:08:54.48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "catalog_safeway\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "catalog_safeway\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T21:10:30.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "catalog_safeway\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T21:07:47.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Program.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Program.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Program.cs",
-              "RelativeToolTip": "catalog_safeway\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T20:32:59.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "catalog_safeway\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "catalog_safeway\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T19:44:47.381Z"
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\appsettings.json",
+              "RelativeDocumentMoniker": "catalog_safeway\\appsettings.json",
+              "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\appsettings.json",
+              "RelativeToolTip": "catalog_safeway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-22T06:22:43.296Z",
+              "EditorCaption": ""
             }
           ]
         }

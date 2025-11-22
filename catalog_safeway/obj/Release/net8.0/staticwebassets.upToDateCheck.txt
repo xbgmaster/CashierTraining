@@ -1,7 +1,5 @@
-wwwroot\css\site.css
-wwwroot\favicon.ico
 wwwroot\images\CeleryBunch.jpg
-wwwroot\images\CeleryStick.jpg
+wwwroot\favicon.ico
 wwwroot\images\Tomatillo.png
 wwwroot\images\TomatoHotHouse.png
 wwwroot\images\TomatoLargeRed.png
@@ -32,7 +30,7 @@ wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\css\site.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
@@ -65,3 +63,5 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\images\CeleryStick.jpg
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
