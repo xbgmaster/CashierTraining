@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\DOTNET\\CashierTraining\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\activitycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\activitycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "catalog_safeway\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\wwwroot\\css\\site.css",
               "RelativeToolTip": "catalog_safeway\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-22T22:07:50.31Z",
               "EditorCaption": ""
@@ -59,12 +59,11 @@
               "RelativeToolTip": "catalog_safeway\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T22:06:47.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T22:06:47.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ActivityCode.cshtml",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\ActivityCode.cshtml",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "catalog_safeway\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-22T22:03:25.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T22:03:25.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "catalog_safeway\\Controllers\\ProductController.cs",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "catalog_safeway\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAMAAAAAAAAAAAAAAAM8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T21:25:13.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T21:25:13.343Z"
             },
             {
               "$type": "Document",
