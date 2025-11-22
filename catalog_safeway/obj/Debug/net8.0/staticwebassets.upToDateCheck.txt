@@ -1,5 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\Beets (Bulk).jpg
 wwwroot\images\CeleryBunch.jpg
 wwwroot\images\CeleryStick.jpg
 wwwroot\images\Tomatillo.png
