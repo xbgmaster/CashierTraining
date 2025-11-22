@@ -22,7 +22,7 @@ namespace catalog_safeway.Controllers
 
         public IActionResult Index()
         {
-            var products = _context.Products.ToList();
+            var products = _context.Products.OrderBy(s => s.Description).ToList();
             return View(products);
         }
 
@@ -59,7 +59,7 @@ namespace catalog_safeway.Controllers
                             string base64String = Convert.ToBase64String(imageBytes);
                             // Guardar la cadena en el modelo
                             model.ImagePath = base64String;
-                        }                      
+                        }
                         model.Id = Guid.NewGuid().ToString();
                         _context.Products.Add(model);
                         await _context.SaveChangesAsync();
@@ -216,21 +216,34 @@ namespace catalog_safeway.Controllers
         }
 
         [HttpPost]
-        public IActionResult ActivityCode(Product model, IFormFile image)
+        public IActionResult ActivityCode(Product model, IFormFile image, string action)
         {
-            var products = _context.Products.ToList();
-            var productUsed = products.Where(w => w.Code == model.Code && w.Description == model.Description).ToList();
-            if (!string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
+            if (action == "check")
             {
-                ModelState.Clear();
-                var selectedProduct = _productServices.getRandomProduct(products, true);
-                ViewBag.messageSucessfull = "Great";
-                return View(selectedProduct);
+                var products = _context.Products.ToList();
+                var productUsed = products.Where(w => w.Code == model.Code && w.Description == model.Description).ToList();
+                if (!string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
+                {
+                    ModelState.Clear();
+                    var selectedProduct = _productServices.getRandomProduct(products, true);
+                    ViewBag.messageSucessfull = "Great";
+                    return View(selectedProduct);
+                }
+                else
+                {
+                    ViewBag.messageError = "The code is invalid. Please try again.";
+                    return View(model);
+                }
             }
+
             else
             {
-                ViewBag.messageError = "The code is invalid. Please try again.";
-                return View(model);
+                var products = _context.Products.ToList();
+                ModelState.Clear();
+                var selectedProduct = _productServices.getRandomProduct(products, true);
+                ViewBag.messageSucessfull = "";
+                return View(selectedProduct);
+
             }
         }
     }
