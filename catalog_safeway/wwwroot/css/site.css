@@ -43,22 +43,31 @@ body {
     flex-direction: column;
 }
 
-.divActivityCode {
+/*.divActivityCode {
     background-color: white;
     width: 880px;
     text-align: center;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
+}*/
+.divActivityCode {
+    background-color: white;
+    width: 880px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-.container {
+.flex-container {
     flex: 1;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
+    min-height: calc(100vh - 100px); /* ajusta según altura del header/footer */
 }
-
 
 table {
     font-family: Arial, Helvetica, sans-serif;
