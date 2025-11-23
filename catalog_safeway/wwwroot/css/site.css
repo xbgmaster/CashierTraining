@@ -63,7 +63,6 @@ body {
 }*/
 .divActivityCode {
     background-color: white;
-    width: 550px;
     height: auto;
     padding: 20px;
     text-align: center;
@@ -72,12 +71,19 @@ body {
 }
 
 .flex-container {
-    flex: 1;
-    display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center; /* vertical */
-    min-height: calc(100vh - 100px); /* ajusta según altura del header/footer */
+    max-width: 600px;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 1rem;
 }
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 
 table {
     font-family: Arial, Helvetica, sans-serif;
