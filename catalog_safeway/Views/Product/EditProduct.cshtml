@@ -24,7 +24,11 @@
             {
                 <span>No image available</span>
             }
-            <input asp-for="@Model.ImagePath" hidden />
+            @* <input asp-for="@Model.ImagePath" src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.ImagePath)" hidden /> *@
+            @* @if (Model.ImagePath != null)
+            {
+                <input asp-for="@Model.ImagePath" name="ImageBase64" value="@Convert.ToBase64String(Model.ImagePath)" />
+            } *@
             <input asp-for="@Model.Id" hidden />
         </div>
 

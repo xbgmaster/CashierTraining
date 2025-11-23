@@ -2,6 +2,7 @@
 using catalog_safeway.Models;
 using catalog_safeway.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -168,20 +169,37 @@ namespace catalog_safeway.Controllers
         [HttpPost]
         public async Task<IActionResult> EditProduct(Product model, IFormFile image)
         {
+
+
             if (!string.IsNullOrEmpty(model.Description) && !string.IsNullOrEmpty(model.Code))
             {
+                var productEntity = await _context.Products.FirstOrDefaultAsync(p => p.Id == model.Id);
+
+                if (productEntity == null)
+                {
+                    ViewBag.messageError = "Product not found.";
+                    return View(model);
+                }
+
+                productEntity.Description = model.Description;
+                productEntity.Code = model.Code;
+
                 if (image != null)
                 {
                     using var ms = new MemoryStream();
                     await image.CopyToAsync(ms);
-                    model.ImagePath = ms.ToArray(); // Guardar directamente como byte[]
+                    productEntity.ImagePath = ms.ToArray();
                 }
+                else
+                {
+                    model.ImagePath = productEntity.ImagePath;
+                }
+                // Si no hay imagen nueva, conserva la existente (ya está en productEntity)
 
-                _context.Products.Update(model);
                 await _context.SaveChangesAsync();
                 ModelState.Clear();
                 ViewBag.messageSucessfull = "Item upgraded";
-                return View(model);
+                return View(productEntity);
             }
             else
             {

@@ -160,7 +160,8 @@ namespace catalog_safeway.Controllers
             {
                 var products = _context.Products.ToList();
                 var productUsed = products.Where(w => w.Code == model.Code && w.Description == model.Description).ToList();
-                if (!string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
+                var productEntity = products.Where(w => w.Description == model.Description).FirstOrDefault();
+                if (productUsed != null && !string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
                 {
                     ModelState.Clear();
                     var selectedProduct = _productServices.getRandomProduct(products, true);
@@ -169,6 +170,7 @@ namespace catalog_safeway.Controllers
                 }
                 else
                 {
+                    model.ImagePath = productEntity.ImagePath;
                     ViewBag.messageError = "The code is invalid. Please try again.";
                     return View(model);
                 }
@@ -182,7 +184,7 @@ namespace catalog_safeway.Controllers
                 ViewBag.messageSucessfull = "";
                 return View(selectedProduct);
             }
-            return View(model);
+            return View(new Product());
         }
     }
 }
