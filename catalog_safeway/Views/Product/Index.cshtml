@@ -6,13 +6,13 @@
 <a asp-controller="ActivityCode" asp-action="ActivityCode" class="btn btn-safeways mb-3">Activity</a>
 
 
-<table class="table table-bordered" id="productTable">
+<table id="productTable" class="table table-bordered table-striped" style="border-collapse:collapse;">
     <thead>
-        <tr>
-            <th>Description</th>
-            <th>Code</th>
-            <th style="width:100px">Image</th>
-            <th>Edit</th>
+        <tr style="background-color:red; text-align:center">
+            <th class="text-center">Description</th>
+            <th class="text-center">Code</th>
+            <th class="text-center" style="width:100px">Image</th>
+            <th class="text-center">Edit</th>
         </tr>
     </thead>
     <tbody>
@@ -47,7 +47,7 @@
                 ordering: true,
                 info: true,
                 columnDefs: [
-                    { orderable: false, targets: [2, 3] } // desactiva orden en columnas de imagen y edición
+                    { orderable: true, targets: [2, 3] } // desactiva orden en columnas de imagen y edición
                 ]
             });
         });
