@@ -34,7 +34,6 @@
                 <div class="flex-grow-1">
                     <input asp-for="Code" type="number" class="form-control" min="1" maxlength="10" />
                 </div>
-                <button type="submit" class="btn btn-safeways mt-3" style="background-color:blue" value="clue" name="action">Clue</button>
             </div>
             <div class="form-group">
                 <br />
@@ -43,7 +42,8 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-safeways mt-3" value="check" name="action">Check</button>
-                <button type="submit" class="btn btn-safeways mt-3" value="skip" name="action">Next</button>
+                <button type="submit" class="btn btn-safeways mt-3" style="background-color:#4169E1" value="clue" name="action">Clue</button>
+                @* <button type="submit" class="btn btn-safeways mt-3" value="skip" name="action">Next</button> *@
                 <br />
                 <br />
             </div>
