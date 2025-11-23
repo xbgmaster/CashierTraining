@@ -152,5 +152,42 @@ namespace catalog_safeway.Controllers
             }
             return View(model);
         }
+
+        [HttpGet]
+        public IActionResult EditProduct(string? code)
+        {
+            if (!string.IsNullOrEmpty(code))
+            {
+                var products = _context.Products.FirstOrDefault(w => w.Code == code);
+                return View(products ?? new Product());
+            }
+            else
+                return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditProduct(Product model, IFormFile image)
+        {
+            if (!string.IsNullOrEmpty(model.Description) && !string.IsNullOrEmpty(model.Code))
+            {
+                if (image != null)
+                {
+                    using var ms = new MemoryStream();
+                    await image.CopyToAsync(ms);
+                    model.ImagePath = ms.ToArray(); // Guardar directamente como byte[]
+                }
+
+                _context.Products.Update(model);
+                await _context.SaveChangesAsync();
+                ModelState.Clear();
+                ViewBag.messageSucessfull = "Item upgraded";
+                return View(model);
+            }
+            else
+            {
+                ViewBag.messageError = "Please fill out all required fields before submitting.";
+                return View(model);
+            }
+        }
     }
 }
