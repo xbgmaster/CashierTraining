@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\controllers\\activitycodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\controllers\\activitycodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|solutionrelative:catalog_safeway\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54AD06D1-FD9B-4368-A042-231EF9A77FB0}|catalog_safeway\\catalog_safeway.csproj|c:\\dotnet\\cashiertraining\\catalog_safeway\\views\\activitycode\\activitycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EditProduct.cshtml",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\EditProduct.cshtml",
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
@@ -46,18 +46,17 @@
               "RelativeToolTip": "catalog_safeway\\Views\\Product\\EditProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T04:53:24.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T04:53:24.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "catalog_safeway\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T04:41:54.443Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "catalog_safeway\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-23T04:34:19.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T04:34:19.475Z"
             },
             {
               "$type": "Document",
@@ -85,12 +83,11 @@
               "RelativeToolTip": "catalog_safeway\\Views\\ActivityCode\\ActivityCode.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-23T04:22:53.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T04:22:53.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ActivityCodeController.cs",
               "DocumentMoniker": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Controllers\\ActivityCodeController.cs",
               "RelativeDocumentMoniker": "catalog_safeway\\Controllers\\ActivityCodeController.cs",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "catalog_safeway\\Controllers\\ActivityCodeController.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAIcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T04:09:25.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T04:09:25.905Z"
             },
             {
               "$type": "Document",
@@ -109,7 +105,7 @@
               "RelativeDocumentMoniker": "catalog_safeway\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\DOTNET\\CashierTraining\\catalog_safeway\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "catalog_safeway\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-23T04:07:12.991Z",
               "EditorCaption": ""

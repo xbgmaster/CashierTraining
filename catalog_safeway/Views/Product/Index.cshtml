@@ -38,3 +38,18 @@
         }
     </tbody>
 </table>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#productTable').DataTable({
+                paging: true,
+                searching: true,
+                ordering: true,
+                info: true,
+                columnDefs: [
+                    { orderable: false, targets: [2, 3] } // desactiva orden en columnas de imagen y edición
+                ]
+            });
+        });
+    </script>
+}
