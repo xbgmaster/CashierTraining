@@ -9,6 +9,16 @@ html {
     }
 }
 
+.form-group-input-boton {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px; /* espacio entre input y botón */
+}
+
+    .form-group-input-boton input {
+        flex-grow: 1;
+    }
+
 footer {
     background-color: black;
 }
@@ -129,7 +139,7 @@ li:hover {
 
 .btn-safeways {
     color: #fff;
-    width:110px;
+    width: 110px;
     background-color: red;
     border-color: #198754;
 }

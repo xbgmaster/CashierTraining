@@ -17,7 +17,7 @@
                 @*             <img src="data:image/jpeg;base64,@Model.ImagePath" alt="Product Image" style="max-width:200px; height:200px;" /> *@
                 @if (@Model.ImagePath != null)
                 {
-                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.ImagePath)" alt="Product Image" style="max-width:100px;" />
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.ImagePath)" alt="Product Image" style="max-width:150px;" />
                 }
                 else
                 {
@@ -29,9 +29,12 @@
 
             <div class="form-group">
                 <label class="labelTitle">Code</label>
-                <br />
-                <input asp-for="Code" type="number" class="form-control" min="1" maxlength="10" />
-                <button type="submit" class="btn btn-safeways mt-3" value="clue" name="action">Clue</button>
+            </div>
+            <div class="form-group-input-boton d-flex align-items-end gap-2">
+                <div class="flex-grow-1">
+                    <input asp-for="Code" type="number" class="form-control" min="1" maxlength="10" />
+                </div>
+                <button type="submit" class="btn btn-safeways mt-3" style="background-color:blue" value="clue" name="action">Clue</button>
             </div>
             <div class="form-group">
                 <br />

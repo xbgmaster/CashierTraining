@@ -13,7 +13,7 @@ namespace catalog_safeway.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly IProductServices _productServices;
 
-        public ActivityCodeController(AppDbContext context, IWebHostEnvironment env, IProductServices productServices) 
+        public ActivityCodeController(AppDbContext context, IWebHostEnvironment env, IProductServices productServices)
         {
             _context = context;
             _env = env;
@@ -133,6 +133,29 @@ namespace catalog_safeway.Controllers
         [HttpPost]
         public IActionResult ActivityCode(Product model, IFormFile image, string action)
         {
+            if (action == "clue")
+            {
+                var products = _context.Products.ToList();
+                Product? productUsed = products.Where(w => w.Id == model.Id).FirstOrDefault();
+                ModelState.Clear();
+                model.Code = productUsed.Code;
+                model.ImagePath = productUsed.ImagePath;
+
+                //if (!string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
+                //{
+                //    ModelState.Clear();
+                //    var selectedProduct = _productServices.getRandomProduct(products, true);
+                //    ViewBag.messageSucessfull = "Great";
+                //    return View(selectedProduct);
+                //}
+                //else
+                //{
+                //    ViewBag.messageError = "The code is invalid. Please try again.";
+                //    return View(model);
+                //}
+                return View(model);
+            }
+
             if (action == "check")
             {
                 var products = _context.Products.ToList();
@@ -151,15 +174,15 @@ namespace catalog_safeway.Controllers
                 }
             }
 
-            else
+            if (action == "skip")
             {
                 var products = _context.Products.ToList();
                 ModelState.Clear();
                 var selectedProduct = _productServices.getRandomProduct(products, true);
                 ViewBag.messageSucessfull = "";
                 return View(selectedProduct);
-
             }
+            return View(model);
         }
     }
 }
