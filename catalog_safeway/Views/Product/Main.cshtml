@@ -1,10 +1,8 @@
 ﻿@model IEnumerable<catalog_safeway.Models.Product>
-
 <div action="form-group" style="text-align:center">
     <h2>Product List SW</h2>
 </div>
 <div action="form-group">
-    <a asp-controller="Product" asp-action="Create" class="btn btn-safeways mb-3" style="width:118px">New product</a>
     <a asp-controller="ActivityCode" asp-action="ActivityCode" class="btn btn-safeways mb-3">Activity</a>
 </div>
 <table id="productTable" class="table table-bordered table-striped" style="border-collapse:collapse;">
@@ -13,7 +11,6 @@
             <th class="text-center">Description</th>
             <th class="text-center">Code</th>
             <th class="text-center" style="width:100px">Image</th>
-            <th class="text-center">Edit</th>
         </tr>
     </thead>
     <tbody>
@@ -32,9 +29,6 @@
                         <span>No image available</span>
                     }
                 </td>
-                <td>
-                    <a asp-controller="Product" asp-action="EditProduct" asp-route-code="@item.Code">Edit</a>
-                </td>
             </tr>
         }
     </tbody>
@@ -48,7 +42,7 @@
                 ordering: true,
                 info: true,
                 columnDefs: [
-                    { orderable: true, targets: [2, 3] } // desactiva orden en columnas de imagen y edición
+                    { orderable: true } // desactiva orden en columnas de imagen y edición
                 ]
             });
         });

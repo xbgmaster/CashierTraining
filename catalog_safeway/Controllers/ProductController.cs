@@ -23,8 +23,19 @@ namespace catalog_safeway.Controllers
 
         public IActionResult Index()
         {
-            var products = _context.Products.OrderBy(s => s.Description).ToList();
-            return View(products);
+            return View(GetOrderedProducts());
+        }
+
+        public IActionResult Main()
+        {
+            return View(GetOrderedProducts());
+        }
+
+        private List<Product> GetOrderedProducts()
+        {
+            return _context.Products
+                           .OrderBy(s => s.Description)
+                           .ToList();
         }
 
         [HttpGet]

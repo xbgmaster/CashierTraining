@@ -2,7 +2,9 @@
 using catalog_safeway.Models;
 using catalog_safeway.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
+using System.Text.Json;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace catalog_safeway.Controllers
@@ -26,6 +28,7 @@ namespace catalog_safeway.Controllers
             if (!string.IsNullOrEmpty(code))
             {
                 var products = _context.Products.FirstOrDefault(w => w.Code == code);
+
                 return View(products ?? new Product());
             }
             else
@@ -122,20 +125,36 @@ namespace catalog_safeway.Controllers
         {
             var products = _context.Products.ToList();
 
+            if (products != null)
+            {
+                var json = JsonSerializer.Serialize(products);
+                HttpContext.Session.SetString("Product", json);
+            }
             if (products.Any())
             {
                 var selectedProduct = _productServices.getRandomProduct(products, true);
                 return View(selectedProduct);
             }
+
             return View(new Product());
         }
 
         [HttpPost]
         public IActionResult ActivityCode(Product model, IFormFile image, string action)
         {
+            var products = new List<Product>();
+            // Session 
+            var productJson = HttpContext.Session.GetString("Product");
+
+            if (productJson != null)
+            {
+                products = JsonSerializer.Deserialize<List<Product>>(productJson);
+            }
+            else
+                products = _context.Products.ToList();
+
             if (action == "clue")
             {
-                var products = _context.Products.ToList();
                 Product? productUsed = products.Where(w => w.Id == model.Id).FirstOrDefault();
                 ModelState.Clear();
                 model.Code = productUsed.Code;
@@ -158,7 +177,6 @@ namespace catalog_safeway.Controllers
 
             if (action == "check")
             {
-                var products = _context.Products.ToList();
                 var productUsed = products.Where(w => w.Code == model.Code && w.Description == model.Description).ToList();
                 var productEntity = products.Where(w => w.Description == model.Description).FirstOrDefault();
                 if (productUsed != null && !string.IsNullOrEmpty(model.Code) && productUsed.Count > 0)
@@ -178,7 +196,6 @@ namespace catalog_safeway.Controllers
 
             if (action == "skip")
             {
-                var products = _context.Products.ToList();
                 ModelState.Clear();
                 var selectedProduct = _productServices.getRandomProduct(products, true);
                 ViewBag.messageSucessfull = "";
